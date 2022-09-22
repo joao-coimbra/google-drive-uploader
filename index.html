@@ -43,10 +43,10 @@
 </head>
 
 <body>
-    <form enctype="multipart/form-data" method="POST" action="/upload" onsubmit="console.log('submited')">
+    <form enctype="multipart/form-data" onsubmit="console.log('submited')">
         <input type="file" name="files" required multiple />
         <input type="text" name="Name" placeholder="Name" />
-        <input type="email" name="Email Address" placeholder="Email" required />
+        <input type="email" name="Email Address" placeholder="Email" />
         <input type="text" name="Country" placeholder="Country" />
         <input type="submit">Submit</input>
     </form>
